@@ -1,4 +1,4 @@
 <ul>
     <li><a href="/">Home</a></li>
-    <li><a href="/gallery.php">Gallery</a></li>
+    <li><a href="/gallery">Gallery</a></li>
 </ul>
