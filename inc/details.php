@@ -8,6 +8,8 @@ echo '</div>';
 
 echo '<div style="padding:10px;">';
 echo    '<img src="/pics/techniques/techniques_' . $fileId . '.PNG" width="520px">';
+echo    '<h3>User Comments</h3>';
+include './inc/show_comments.php';
 echo '</div>';
 
 echo '<p style="clear:both;"><a href="/gallery">zurück</a></p>';
