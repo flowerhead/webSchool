@@ -9,6 +9,7 @@ echo '</div>';
 echo '<div style="padding:10px;">';
 echo    '<img src="/pics/techniques/techniques_' . $fileId . '.PNG" width="520px">';
 echo    '<h3>User Comments</h3>';
+include './inc/add_comment.php';
 include './inc/show_comments.php';
 echo '</div>';
 
