@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_URI'] === '/') {
     }
 }
 
-if (!file_exists('inc/' . $page . '.php')) {
+if (!file_exists('../src/pages/' . $page . '.php')) {
     header("HTTP/1.0 404 Not Found");
     $page = '404';
 }

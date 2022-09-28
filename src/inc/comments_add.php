@@ -14,7 +14,7 @@
 
 if (isset($_POST['fileId'])) {
     $fileId      = $_POST['fileId'];
-    $commentFile = "./comments/$fileId.csv";
+    $commentFile = "../src/comments/$fileId.csv";
 
     if (!file_exists($commentFile)) {
         touch($commentFile);
