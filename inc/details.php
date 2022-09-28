@@ -3,7 +3,9 @@
 $fileId = $_GET['pic'];
 
 echo '<div style="float:left;margin:10px;">';
-echo    '<div><img src="/pics/' . $fileId . '.PNG" width="400"><p>Name:' . $fileId . '</p></div>';
+echo    '<div><img src="/pics/' . $fileId . '.PNG" width="400">';
+echo        '<p>Name:' . $fileId . '</p></div>';
+echo        '<p><a href="/gallery">zurück</a></p>';
 echo '</div>';
 
 echo '<div style="padding:10px;">';
@@ -12,5 +14,3 @@ echo    '<h3>User Comments</h3>';
 include './inc/add_comment.php';
 include './inc/show_comments.php';
 echo '</div>';
-
-echo '<p style="clear:both;"><a href="/gallery">zurück</a></p>';
