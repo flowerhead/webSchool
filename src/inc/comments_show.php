@@ -1,8 +1,8 @@
 <?php
 
 if (
-    file_exists('./comments/' . $fileId . '.csv')
-    && ($handle = fopen('./comments/' . $fileId . '.csv', "r")) !== FALSE
+    file_exists('../src/comments/' . $fileId . '.csv')
+    && ($handle = fopen('../src/comments/' . $fileId . '.csv', "r")) !== FALSE
 ) {
     echo "<table>";
     echo "<tr>";
